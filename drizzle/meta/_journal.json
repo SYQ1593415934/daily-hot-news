@@ -1,0 +1,41 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1794722490577,
+      "tag": "0000_flawless_magik",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1794747417361,
+      "tag": "0001_tearful_miek",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1794748820307,
+      "tag": "0002_youthful_nocturne",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1794806185711,
+      "tag": "0003_tranquil_demogoblin",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "6",
+      "when": 1794806275982,
+      "tag": "0004_yielding_longshot",
+      "breakpoints": true
+    }
+  ]
+}

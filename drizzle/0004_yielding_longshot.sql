@@ -1,0 +1,1 @@
+CREATE INDEX `hotlist_snapshots_observed_at_idx` ON `hotlist_snapshots` (`observed_at`);

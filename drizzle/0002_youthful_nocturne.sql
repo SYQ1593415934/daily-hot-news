@@ -1,0 +1,1 @@
+ALTER TABLE `source_status` ADD `source_updated_at` text;

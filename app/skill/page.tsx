@@ -1,0 +1,12 @@
+export const metadata = { title: "Agent 接入 · 今日热闻", description: "将今日热闻接入支持 MCP 和 Skill 的 AI Agent。" };
+
+export default function SkillPage() {
+  return <main className="min-h-screen bg-white text-[#202020]"><div className="mx-auto max-w-[810px] px-6 pb-20 pt-12 sm:px-10 sm:pt-20">
+    <a href="/" className="text-sm text-[#888] hover:text-[#c83d2c]">← 返回热点</a>
+    <header className="mt-10 border-b border-[#ececec] pb-9 sm:mt-14"><p className="text-[11px] font-medium tracking-[0.22em] text-[#9b9b9b]">THE DAILY SIGNAL · FOR AGENTS</p><h1 className="mt-4 font-serif text-[32px] font-semibold tracking-[0.04em] sm:text-[38px]">让 AI 读懂今日热闻</h1><div className="mt-5 h-[3px] w-10 bg-[#c83d2c]"/><p className="mt-6 max-w-[570px] text-sm leading-7 text-[#777]">将今日热闻接入支持 MCP 的 AI Agent，查询微博、抖音、知乎和 B 站热点，结合已有来源整理信息。</p></header>
+    <section className="border-b border-[#ececec] py-9"><div className="flex flex-wrap items-baseline justify-between gap-3"><h2 className="text-base font-semibold">01　获取 Skill</h2><span className="text-xs text-[#999]">适用于支持 Skill 的 Agent</span></div><p className="mt-4 text-sm leading-7 text-[#777]">下载说明文件，按你所使用的 Agent 的方法安装；也可以直接阅读并复制其中的使用说明。</p><a href="/daily-hot-news/SKILL.md" download="SKILL.md" className="mt-5 inline-block border-b border-[#c83d2c] pb-1 text-sm font-medium text-[#c83d2c] hover:text-[#942b20]">下载 SKILL.md ↓</a></section>
+    <section className="border-b border-[#ececec] py-9"><h2 className="text-base font-semibold">02　连接数据</h2><p className="mt-4 text-sm leading-7 text-[#777]">在 Agent 的 MCP 连接设置中添加下面的地址，并根据客户端提示完成授权。</p><div className="mt-5 rounded-sm bg-[#f7f7f6] px-4 py-4"><p className="text-[11px] tracking-wider text-[#999]">MCP 服务器地址</p><code className="mt-2 block break-all text-sm leading-6 text-[#333]">https://news.smoothcockatoo2.chatgpt.site/mcp</code></div><p className="mt-4 text-xs leading-6 text-[#999]">接入是否成功取决于客户端和授权状态。若提示重新授权，请先在对应客户端重新连接。</p></section>
+    <section className="border-b border-[#ececec] py-9"><h2 className="text-base font-semibold">03　开始提问</h2><p className="mt-4 text-sm leading-7 text-[#777]">连接后，可以试着问：</p><ul className="mt-3 space-y-2 text-sm leading-7 text-[#555]"><li>“今天四个平台有什么共同关注的热点？”</li><li>“帮我查看今日热闻已有的简报。”</li><li>“这个热点有哪些可以核对的来源？”</li></ul></section>
+    <p className="mt-8 text-xs leading-6 text-[#999]">榜单可能存在延迟，跨平台事件归并也可能有误，请以原始来源为准。使用 AI Agent 可能消耗其对应账号的模型额度。</p><footer className="mt-12 text-xs text-[#aaa]">今日热闻 · 在信息里，找到值得了解的事</footer>
+  </div></main>;
+}
